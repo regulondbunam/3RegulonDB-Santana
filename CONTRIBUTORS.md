@@ -1,13 +1,8 @@
-## [Software name]
+Datos HT
 
-__Contributors__ 
+__Contribuidores__
 
-[Software name] Version [release version] has been developed by RegulonDB team with contributions from the following.
+Datos HT v1.0
 
-- [Full name]] ([@user]()) [contribution description].
-- [Full name]] ([@user]()) [contribution description].
-- [Full name]] ([@user]()) [contribution description]. (Pull Requests [#x](), [#x]()).
-- [Full name]] ([@user]()) [contribution description]. (Pull Requests [#x](), [#x]()).
-
-
-
+Santana Estrada Hernandez  santana.estradahdz@gmail.com   Desarrollador
+Pablo EMilio Peña Loredo  pablopl@ccg.unam.mx  Desarrollador
