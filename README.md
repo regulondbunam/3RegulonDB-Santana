@@ -2,12 +2,11 @@
 
 # Description
 
-[High-level description, describing what exactly software does.]
+Este modulo se encargara de extraer archivos de diferentes formatos pueden ser csv,txt o xlsx, para poder tomar su data y metadata, una vez tomando esos datos se encargara de tranasformalos y validarlos para corroborar que sean datos correctos mediante JSONSchemas, una vez validados se crea un JSON con su data y metadata corrrespondientes.
 
 # Motivation
 
-[Why the software does things the way it does and why it was designed in the first place. What problems are solved by it. Links to publications and comparisons to similar software.]
-
+los datos procesados se convirten en un JSON debido a que esta informacion se almacenara posteriormente en una base de datos documental que se encargara de alojar los todos los datos, la base se llama DATOS HT
 
 
 # System requirements
@@ -16,31 +15,28 @@
 
 # Install 
 
-[This may be described in a separate INSTALL file, but the README must then clearly state this.]
+sudo dnf install python3 -y
 
 
 
 # Quick start
-
-[How the first task can be performed with the software, or, in the more extensive  documentation, a link to the quick start. Outlines how to quickly get started with the software using a basic yet practical example]
-
-
+El siguiente comando se encargara de correr el modulo
+python3 ht_validate_transform -i '/home/santana/Dropbox/3RegulonDB-Santana/1.Entrada/Datasets-Curadores-Templates/' -t geneExpressionContrast -out '/home/santana/Dropbox/3RegulonDB-Santana/users/Estrada883/3RegulonDB-Santana/Objetos_Validos/geneExpresionContrast_Json_Valido.json' -o '/home/santana/Dropbox/3RegulonDB-Santana/users/Estrada883/3RegulonDB-Santana/Objetos_InValidos/geneExpressionContrast_Json_InValido.json' -js_metadata '/home/santana/Dropbox/3RegulonDB-Santana/users/Estrada883/3RegulonDB-Santana/json_schemas/metadatageneExpressionContrast.json' -js_data '/home/santana/Dropbox/3RegulonDB-Santana/users/Estrada883/3RegulonDB-Santana/json_schemas/datageneExpressionContrast.json' -log /home/santana/Dropbox/3RegulonDB-Santana/users/Estrada883/3RegulonDB-Santana/Log/geneExpressionContrast.log
 
 # Project website 
 
-[Website where the software is described and allows users to obtain it as well as its documentation.]
+Poder visualizar los datos como tal en una plataforma web no se podr adebido a que el proyecto aun sigue en desarrallo pero al terminar se podran visualizar en la siguiente pagina web:
+http://regulondb.ccg.unam.mx/gene?organism=ECK12&term=ECK120000050&format=jsp&type=gene
 
 # License
-
-[Defines the set of rules and conditions for people who want to use the software.]
+Como tal no se necesita ninguna licencia debido a que fue creado por herramientas de open source.
 
 # Support contact information
-
-[It should be clear where to go for support, for example a contact e-mail address]
+santana.estradahdz@gmail.com
 
 # Software quality checklist
 
-[This may describe the state of the code, providing the necessary guidance on which aspects could be improved]
+El codigo se encuentra en su version 1.0 y podria tener mejoras con forme sea la necesidad del proyecto o de los datos
 
 **Accessibility**
 
