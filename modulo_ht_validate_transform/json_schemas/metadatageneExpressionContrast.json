@@ -1,0 +1,36 @@
+{
+           
+                "type": "object",
+                "required": [
+                    "title",
+                    "pmid" ,
+                    "author",
+                    "strain",
+                    "reference genome",
+                    "experiment details",
+                    "method",
+                    "method details",
+                    "instrument",
+                    "evidence",
+                    "statistical model"
+                    
+                ],
+                "properties": {
+                    "title": { "type": ["string", "null"] },
+                    "pmid": { "type": ["number", "null"] },
+                    "author": { "type": ["string", "null"] },
+                    "strain": { "type": ["string", "null"] },
+                    "reference genome": { "type": ["string", "null"] },
+                    "dataset accesion number": { "type": ["string", "null"] },
+                    "experiment details": { "type": ["string", "null"] },
+                    "method": { "type": ["string", "null"] },
+                    "method details": { "type": ["string", "null"] },
+                    "instrument": { "type": ["string", "null"] },
+                    "evidence": { "type": ["string", "null"] },
+                    "statistical model": { "type": ["string", "null"] }
+                },
+                "additionalProperties": false
+      
+}
+  
+   

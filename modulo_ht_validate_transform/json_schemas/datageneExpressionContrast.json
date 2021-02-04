@@ -1,0 +1,37 @@
+{
+    		"type": "array",
+                "required": [
+                    "Target_gene",
+                    "Effect",
+                    "log2 Fold Change",
+                    "Threshold",
+                    "Comparison order",
+                    "GCs(Control)",
+                    "GCs(Experimental)",
+                    "Variable",
+                    "FDR",
+                    "bnumber",
+                    "operon",
+                    "Start",
+                    "End",
+                    "Length"
+                ],
+                "properties": {
+                    "Target_gene": { "type": ["string", "null"] },
+                    "Effect": { "type": ["string", "null"] },
+                    "log2 Fold Change": { "type": ["number", "null"] },
+                    "Threshold": { "type": ["string", "null"] },
+                    "Comparison order": { "type": ["string", "null"] },
+                    "GCs(Control)": { "type": ["string", "null"] },
+                    "GCs(Experimental)": { "type": ["string", "null"] },
+                    "Variable": { "type": ["string", "null"] },
+                    "FDR": { "type": ["string", "null"] },
+                    "bnumber": { "type": ["string", "null"] },
+                    "operon": { "type": ["string", "null"] },
+                    "Start": { "type": ["number", "null"] },
+                    "End": { "type": ["number", "null"] },
+                    "Length": { "type": ["number", "null"] }
+                },
+                "additionalProperties": false
+}
+        
