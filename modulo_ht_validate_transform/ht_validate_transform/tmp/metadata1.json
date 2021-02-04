@@ -1,0 +1,50 @@
+{
+    "DATASET_TITLE" : {
+        "value" : "Accession \"GSE133348\" is currently private and is scheduled to be released on Jun 01, 2022.", 
+        "comments" : "Park2019-flavotoxins"
+    }, 
+    "PMID" : {
+        "value" : 31452043, 
+        "comments" : null
+    }, 
+    "CORRESPONDING_AUTHOR_(EMAIL)" : {
+        "value" : "Young-Su Seo (yseo2011@pusan.ac.kr) ", 
+        "comments" : null
+    }, 
+    "STRAIN" : {
+        "value" : "--Escherichia coli str. K-12 substr. MG1655\u00a0\u00a0\u00a0", 
+        "comments" : null
+    }, 
+    "REFERENCE_GENOME" : {
+        "value" : null, 
+        "comments" : null
+    }, 
+    "DATASET_ACCESION_NUMBER[DATABASE]" : {
+        "value" : "GSE133348 (GEO)", 
+        "comments" : null
+    }, 
+    "EXPERIMENTAL_DETAILS" : {
+        "value" : null, 
+        "comments" : null
+    }, 
+    "METHOD" : {
+        "value" : "RNA-seq", 
+        "comments" : null
+    }, 
+    "METHOD_DETAILS" : {
+        "value" : null, 
+        "comments" : null
+    }, 
+    "INSTRUMENT" : {
+        "value" : "Illumina HiSeq 2000", 
+        "comments" : "Paired end sequencing"
+    }, 
+    "EVIDENCE" : {
+        "value" : "RNA-seq", 
+        "comments" : null
+    }, 
+    "STATISTICAL_MODEL" : {
+        "value" : "p-value", 
+        "comments" : "<p><i>P</i>-values were adjusted for multiple testing with the Benjamini-Hochberg procedure as a false discovery rate (FDR) value</p>"
+    }
+}

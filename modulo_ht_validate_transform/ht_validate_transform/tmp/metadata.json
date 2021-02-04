@@ -1,0 +1,35 @@
+{
+    "metadatageneExpressionContrasts": {
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "#DATASET TITLE",
+                    "#CORRESPONDING AUTHOR (EMAIL):",
+                    "#STRAIN:",
+                    "#REFERENCE GENOME:",
+                    "#DATASET ACCESION NUMBER[DATABASE]:",
+                    "#EXPERIMENTAL DETAILS",
+                    "#METHOD:",
+                    "#METHOD DETAILS:",
+                    "#INSTRUMENT:",
+                    "#EVIDENCE:",
+                    "#STATISTICAL MODEL"
+                ],
+                "properties": {
+                    "#DATASET TITLE": { "type": "string" },
+                    "#CORRESPONDING AUTHOR (EMAIL):": { "type": "bnumber" },
+                    "#STRAIN:": { "type": "string" },
+                    "#REFERENCE GENOME:": { "type": "string" },
+                    "#DATASET ACCESION NUMBER[DATABASE]:": { "type": "string" },
+                    "#EXPERIMENTAL DETAILS": { "type": "string" },
+                    "#METHOD:": { "type": "string" },
+                    "#METHOD DETAILS:": { "type": "string" },
+                    "#INSTRUMENT:": { "type": "string" },
+                    "#EVIDENCE:": { "type": "string" },
+                    "#STATISTICAL MODEL": { "type": "string" }
+                }
+            }
+        }
+    }
+}

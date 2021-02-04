@@ -1,0 +1,49 @@
+{
+    "Term": {
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "name",
+                    "ontology_id"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "ontology_id": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "citations": {
+                        "type": "object array"
+                    },
+                    "has": {
+                        "type": "string array"
+                    },
+                    "isA": {
+                        "type": "string array"
+                    },
+                    "synonyms": {
+                        "type": "string array"
+                    },
+                    "url": {
+                        "type": "string array"
+                    },
+                    "externalCrossReference": {
+                        "type": "object"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+    }
+}

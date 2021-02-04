@@ -1,0 +1,82 @@
+{
+    "transcriptionTerminatorSites": {
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "experiment_control_id"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string"
+                    },
+                    "experiment_control_id": {
+                        "type": "string"
+                    },
+                    "aAround5Flank": {
+                        "type": "int"
+                    },
+                    "gcLeftStemRegionContent": {
+                        "type": "double"
+                    },
+                    "gKcalMol": {
+                        "type": "string"
+                    },
+                    "intrinsicTSS": {
+                        "type": "string"
+                    },
+                    "leftEndPosition": {
+                        "type": "int"
+                    },
+                    "leftStemLength": {
+                        "type": "int"
+                    },
+                    "loopLength": {
+                        "type": "int"
+                    },
+                    "preditedRNAFoldStructure": {
+                        "type": "string"
+                    },
+                    "rhoDependentType": {
+                        "type": "string"
+                    },
+                    "rightStemLength": {
+                        "type": "int"
+                    },
+                    "sequences": {
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "object",
+                            "required": [],
+                            "properties": {
+                                "5FlankSequence": {
+                                    "type": "string"
+                                },
+                                "3FlankSequence": {
+                                    "type": "string"
+                                },
+                                "ttsSequence": {
+                                    "type": "string"
+                                },
+                                "rnaSequenceAroundTTS": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    },
+                    "strand": {
+                        "type": "string"
+                    },
+                    "uAround5Flank": {
+                        "type": "int"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+    }
+}

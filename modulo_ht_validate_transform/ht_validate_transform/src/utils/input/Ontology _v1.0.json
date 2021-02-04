@@ -1,0 +1,39 @@
+{
+    "Ontology": {
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "name"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "label": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "type": "string"
+                    },
+                    "url": {
+                        "type": "string"
+                    },
+                    "externalCrossReference": {
+                        "type": "object"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+    }
+}

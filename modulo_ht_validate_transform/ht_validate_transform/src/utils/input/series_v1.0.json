@@ -1,0 +1,51 @@
+{
+    "series": {
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "organism"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string"
+                    },
+                    "organism": {
+                        "type": "string"
+                    },
+                    "authors": {
+                        "type": "string array"
+                    },
+                    "laboratory": {
+                        "type": "string"
+                    },
+                    "email": {
+                        "type": "string"
+                    },
+                    "correspondingAuthor": {
+                        "type": "string"
+                    },
+                    "externalCrossRefenrences": {
+                        "type": "object array"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "experimentType": {
+                        "type": "string"
+                    },
+                    "summary": {
+                        "type": "string"
+                    },
+                    "citations": {
+                        "type": "object array"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+    }
+}

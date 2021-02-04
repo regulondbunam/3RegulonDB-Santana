@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c03a9305-6c21-4e19-9b65-561604691f8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../CITATION.cff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CONTRIBUTORS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../INSTALL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UNINSTALL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/testFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/testFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/testFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/testFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/testFile.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="74c01706-71de-4429-b4db-5ddcf6913559" />
+  <component name="ProjectId" id="1kiAesqZ3aEzyMGDTIiNfrEGncU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tmp/datasets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ht_validate_transform" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.__main__" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c03a9305-6c21-4e19-9b65-561604691f8b" name="Default Changelist" comment="" />
+      <created>1606173136730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606173136730</updated>
+      <workItem from="1606173138001" duration="2848000" />
+      <workItem from="1606437910508" duration="3309000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1570" height="323" key="GridCell.Tab.0.bottom" timestamp="1606176080317">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state width="1570" height="323" key="GridCell.Tab.0.bottom/0.25.3440.1415@0.25.3440.1415" timestamp="1606176080317" />
+    <state width="1570" height="323" key="GridCell.Tab.0.center" timestamp="1606176080316">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state width="1570" height="323" key="GridCell.Tab.0.center/0.25.3440.1415@0.25.3440.1415" timestamp="1606176080316" />
+    <state width="1570" height="323" key="GridCell.Tab.0.left" timestamp="1606176080316">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state width="1570" height="323" key="GridCell.Tab.0.left/0.25.3440.1415@0.25.3440.1415" timestamp="1606176080316" />
+    <state width="1570" height="323" key="GridCell.Tab.0.right" timestamp="1606176080317">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state width="1570" height="323" key="GridCell.Tab.0.right/0.25.3440.1415@0.25.3440.1415" timestamp="1606176080317" />
+    <state width="1570" height="323" key="GridCell.Tab.1.bottom" timestamp="1606176080319">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state width="1570" height="323" key="GridCell.Tab.1.bottom/0.25.3440.1415@0.25.3440.1415" timestamp="1606176080319" />
+    <state width="1570" height="323" key="GridCell.Tab.1.center" timestamp="1606176080318">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state width="1570" height="323" key="GridCell.Tab.1.center/0.25.3440.1415@0.25.3440.1415" timestamp="1606176080318" />
+    <state width="1570" height="323" key="GridCell.Tab.1.left" timestamp="1606176080318">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state width="1570" height="323" key="GridCell.Tab.1.left/0.25.3440.1415@0.25.3440.1415" timestamp="1606176080318" />
+    <state width="1570" height="323" key="GridCell.Tab.1.right" timestamp="1606176080318">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state width="1570" height="323" key="GridCell.Tab.1.right/0.25.3440.1415@0.25.3440.1415" timestamp="1606176080318" />
+    <state x="1146" y="462" key="SettingsEditor" timestamp="1606437943547">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state x="1146" y="462" key="SettingsEditor/0.25.3440.1415@0.25.3440.1415" timestamp="1606437943547" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="args.schemas" />
+        <watch expression="path" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ht_validate_transform$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1606176069684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

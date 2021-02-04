@@ -1,0 +1,66 @@
+{
+    "samples": {
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "growthConditionPhrasesCatalog_id",
+                    "serie_id",
+                    "platform_id",
+                    "citations"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string"
+                    },
+                    "growthConditionPhrasesCatalog_id": {
+                        "type": "string"
+                    },
+                    "serie_id": {
+                        "type": "string"
+                    },
+                    "platform_id": {
+                        "type": "string"
+                    },
+                    "citations": {
+                        "type": "object array"
+                    },
+                    "runID": {
+                        "type": "string"
+                    },
+                    "sourcedbId": {
+                        "type": "string"
+                    },
+                    "instrument": {
+                        "type": "string"
+                    },
+                    "methodDetails": {
+                        "type": "string"
+                    },
+                    "note": {
+                        "type": "string"
+                    },
+                    "alignedOrganism": {
+                        "type": "object"
+                    },
+                    "sampleType": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "sourceName": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+    }
+}

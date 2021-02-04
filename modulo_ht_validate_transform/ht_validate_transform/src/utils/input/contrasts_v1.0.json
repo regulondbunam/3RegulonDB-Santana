@@ -1,0 +1,49 @@
+{
+    "contrasts": {
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "control_sample_id",
+                    "experimental_sample_id"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string"
+                    },
+                    "control_sample_id": {
+                        "type": "string"
+                    },
+                    "experimental_sample_id": {
+                        "type": "string"
+                    },
+                    "variable": {
+                        "type": "string"
+                    },
+                    "comparisonOrder": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "type": "string"
+                    },
+                    "threshold": {
+                        "type": "float"
+                    },
+                    "method": {
+                        "type": "object"
+                    },
+                    "citations": {
+                        "type": "object array"
+                    },
+                    "title": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "GrowthConditionPhrasesCatalog": {
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "name",
+                    "terms"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "terms": {
+                        "type": "object array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "object",
+                            "required": [
+                                "term_id",
+                                "order"
+                            ],
+                            "properties": {
+                                "id": {
+                                    "type": "string"
+                                },
+                                "term_type": {
+                                    "type": "string"
+                                },
+                                "order": {
+                                    "type": "int"
+                                }
+                            }
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "validationLevel": "strict",
+            "validationAction": "error"
+        }
+    }

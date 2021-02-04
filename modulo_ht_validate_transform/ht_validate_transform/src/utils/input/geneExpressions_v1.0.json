@@ -1,0 +1,31 @@
+{
+    "geneExpressions": {
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "experiment_id",
+                    "gene_id"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string"
+                    },
+                    "experiment_id": {
+                        "type": "string"
+                    },
+                    "gene_id": {
+                        "type": "string"
+                    },
+                    "expressionValue": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+    }
+}
