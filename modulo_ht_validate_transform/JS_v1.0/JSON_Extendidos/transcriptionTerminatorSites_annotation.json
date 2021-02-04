@@ -1,0 +1,236 @@
+{
+    "transcriptionTerminatorSites": {
+    	"name": "transcriptionTerminatorSites",
+		"description": "Esta colección representa al objeto __transcriptionTerminatorSites__ ",
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "experiment_control_id"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms": "identifier",
+							"Description": "Este campo tiene como función identificar a un transcriptionTerminatorSites en particular, el cual puede ser utilizado para hacer búsquedas y relaciones con otros campos.",
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": "Para conocer más detalle sobre la definición de los identificadores, consultar la sección: Identificadores en el manual de RegulonDB."
+						}
+                    },
+                    "experiment_control_id": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms": "identifier",
+							"Description": "Este campo tiene como función identificar a un experiment_control_id en particular, el cual puede ser utilizado para hacer búsquedas y relaciones con otros campos.",
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": "Para conocer más detalle sobre la definición de los identificadores, consultar la sección: Identificadores en el manual de RegulonDB."
+						}
+                    },
+                    "aAround5Flank": {
+                        "type": "int",
+                        "annotation": {
+							"Synonyms": "",
+							"Description": "",
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "gcLeftStemRegionContent": {
+                        "type": "double",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "gKcalMol": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description": "",
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "intrinsicTSS": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "leftEndPosition": {
+                        "type": "int",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "leftStemLength": {
+                        "type": "int",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "loopLength": {
+                        "type": "int",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description": "",
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "preditedRNAFoldStructure": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "rhoDependentType": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms": "",
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "rightStemLength": {
+                        "type": "int",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "sequences": {
+                        "type": "array",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "object",
+                            "required": [],
+                            "properties": {
+                                "5FlankSequence": {
+                                    "type": "string",
+                                    "annotation": {
+										"Synonyms": "",
+										"Description":"" ,
+										"URI": "[value]",
+										"Required": "[value]",
+										"Example": "",
+										"Comments": ""
+									}
+                                },
+                                "3FlankSequence": {
+                                    "type": "string",
+                                    "annotation": {
+										"Synonyms":"" ,
+										"Description":"" ,
+										"URI": "[value]",
+										"Required": "[value]",
+										"Example": "",
+										"Comments": ""
+									}
+                                },
+                                "ttsSequence": {
+                                    "type": "string",
+                                    "annotation": {
+										"Synonyms":"" ,
+										"Description": "",
+										"URI": "[value]",
+										"Required": "[value]",
+										"Example": "",
+										"Comments": ""
+									}
+                                },
+                                "rnaSequenceAroundTTS": {
+                                    "type": "string",
+                                    "annotation": {
+										"Synonyms": "",
+										"Description": "",
+										"URI": "[value]",
+										"Required": "[value]",
+										"Example": "",
+										"Comments": ""
+									}
+                                }
+                            }
+                        },
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description": "",
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "strand": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "uAround5Flank": {
+                        "type": "int",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+    }
+}

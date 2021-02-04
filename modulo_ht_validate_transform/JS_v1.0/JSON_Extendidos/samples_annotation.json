@@ -1,0 +1,188 @@
+{
+    "samples": {
+    	"name": "samples",
+		"description": "Esta colección representa al objeto __samples__ ",
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "growthConditionPhrasesCatalog_id",
+                    "serie_id",
+                    "platform_id",
+                    "citations"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms": "identifier",
+							"Description": "Este campo tiene como función identificar a un samples en particular, el cual puede ser utilizado para hacer búsquedas y relaciones con otros campos.",
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": "Para conocer más detalle sobre la definición de los identificadores, consultar la sección: Identificadores en el manual de RegulonDB."
+						}
+                    },
+                    "growthConditionPhrasesCatalog_id": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms": "identifier",
+							"Description": "Este campo tiene como función identificar a un growthConditionPhrasesCatalog_id en particular, el cual puede ser utilizado para hacer búsquedas y relaciones con otros campos.",
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": "Para conocer más detalle sobre la definición de los identificadores, consultar la sección: Identificadores en el manual de RegulonDB."
+						}
+                    },
+                    "serie_id": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms": "identifier",
+							"Description": "Este campo tiene como función identificar a un serie_id en particular, el cual puede ser utilizado para hacer búsquedas y relaciones con otros campos.",
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": "Para conocer más detalle sobre la definición de los identificadores, consultar la sección: Identificadores en el manual de RegulonDB."
+						}
+                    },
+                    "platform_id": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms": "identifier",
+							"Description": "Este campo tiene como función identificar a un platform_id en particular, el cual puede ser utilizado para hacer búsquedas y relaciones con otros campos.",
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": "Para conocer más detalle sobre la definición de los identificadores, consultar la sección: Identificadores en el manual de RegulonDB."
+						}
+                    },
+                    "citations": {
+                        "type": "object array",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description": "",
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "runID": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms": "",
+							"Description": "",
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "sourcedbId": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms": "",
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "instrument": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "methodDetails": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "note": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "alignedOrganism": {
+                        "type": "object",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description": "",
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "sampleType": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "description": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "title": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms": "",
+							"Description":"" ,
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    },
+                    "sourceName": {
+                        "type": "string",
+                        "annotation": {
+							"Synonyms":"" ,
+							"Description": "",
+							"URI": "[value]",
+							"Required": "[value]",
+							"Example": "",
+							"Comments": ""
+						}
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "regulatoryInteraction": {
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "TFBinding_id",
+                    "geneExpression_id"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string"
+                    },
+                    "TFBinding_id": {
+                        "type": "string"
+                    },
+                    "geneExpression_id": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+    }
+}

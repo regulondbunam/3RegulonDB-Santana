@@ -1,0 +1,75 @@
+{
+    "plataforms": {
+        "name": "plataforms",
+        "description": "Esta colección representa al objeto __plataforms__ ",
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "sourcedbId"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string",
+                        "annotation": {
+                            "Synonyms": "identifier",
+                            "Description": "Este campo tiene como función identificar a un plataforms en particular, el cual puede ser utilizado para hacer búsquedas y relaciones con otros campos.",
+                            "URI": "[value]",
+                            "Required": "[value]",
+                            "Example": "",
+                            "Comments": "Para conocer más detalle sobre la definición de los identificadores, consultar la sección: Identificadores en el manual de RegulonDB."
+                        }
+                    },
+                    "sourcedbId": {
+                        "type": "string",
+                        "annotation": {
+                            "Synonyms": "",
+                            "Description":"" ,
+                            "URI": "[value]",
+                            "Required": "[value]",
+                            "Example": "",
+                            "Comments": ""
+                        }
+                    },
+                    "description": {
+                        "type": "string",
+                        "annotation": {
+                            "Synonyms":"" ,
+                            "Description":"" ,
+                            "URI": "[value]",
+                            "Required": "[value]",
+                            "Example": "",
+                            "Comments": ""
+                        }
+                    },
+                    "title": {
+                        "type": "string",
+                        "annotation": {
+                            "Synonyms":"" ,
+                            "Description": "",
+                            "URI": "[value]",
+                            "Required": "[value]",
+                            "Example": "",
+                            "Comments": ""
+                        }
+                    },
+                    "externalCrossReferences": {
+                        "type": "object array",
+                        "annotation": {
+                            "Synonyms":"" ,
+                            "Description": "",
+                            "URI": "[value]",
+                            "Required": "[value]",
+                            "Example": "",
+                            "Comments": ""
+                        }
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+    }
+}

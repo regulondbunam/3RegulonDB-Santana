@@ -1,0 +1,33 @@
+{
+    "plataforms": {
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "sourcedbId"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string"
+                    },
+                    "sourcedbId": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "externalCrossReferences": {
+                        "type": "object array"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "TFBindingConstrasts": {
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string"
+                    },
+                    "absolutePosition": {
+                        "type": "string"
+                    },
+                    "motifStartDistance": {
+                        "type": "string"
+                    },
+                    "peak": {
+                        "type": "object",
+                        "uniqueItems": true,
+                        "items": {
+                            "type": "object",
+                            "required": [
+                                "start",
+                                "end",
+                                "center",
+                                "number"
+                            ],
+                            "properties": {
+                                "start": {
+                                    "type": "int"
+                                },
+                                "end": {
+                                    "type": "int"
+                                },
+                                "center": {
+                                    "type": "int"
+                                },
+                                "number": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "p-value": {
+                            "type": "string"
+                        },
+                        "sequence": {
+                            "type": "string"
+                        },
+                        "signalNoiseRatio": {
+                            "type": "float"
+                        },
+                        "gene": {
+                            "type": "string",
+                            "uniqueItems": true,
+                            "items": {
+                                "type": "object",
+                                "required": [
+                                    "id",
+                                    "name"
+                                ],
+                                "properties": {
+                                    "id": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "transcriptionFactor": {
+                                "type": "object",
+                                "uniqueItems": true,
+                                "items": {
+                                    "type": "object",
+                                    "required": [
+                                        "id",
+                                        "name"
+                                    ],
+                                    "properties": {
+                                        "id": {
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    },
+                    "validationLevel": "strict",
+                 "validationAction": "error"
+                }
+            }
+         }
+     }
+ }

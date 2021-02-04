@@ -1,0 +1,36 @@
+{
+    "transcriptionUnits": {
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "experiment_control_id"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string"
+                    },
+                    "experiment_control_id": {
+                        "type": "string"
+                    },
+                    "genesCovered": {
+                        "type": "string array"
+                    },
+                    "leftEndPosition": {
+                        "type": "int"
+                    },
+                    "length": {
+                        "type": "int"
+                    },
+                    "rightEndPosition": {
+                        "type": "int"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+    }
+}

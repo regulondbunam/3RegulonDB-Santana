@@ -1,0 +1,39 @@
+{
+    "transcriptionStartSites": {
+        "validator": {
+            "$jsonSchema": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "experiment_control_id"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string"
+                    },
+                    "experiment_control_id": {
+                        "type": "string"
+                    },
+                    "leftEndPosition": {
+                        "type": "int"
+                    },
+                    "numberOfReads": {
+                        "type": "int"
+                    },
+                    "rightEndPosition": {
+                        "type": "int"
+                    },
+                    "strand": {
+                        "type": "string"
+                    },
+                    "sequence": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "validationLevel": "strict",
+        "validationAction": "error"
+    }
+}
