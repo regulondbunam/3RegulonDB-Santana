@@ -32,7 +32,7 @@ http://regulondb.ccg.unam.mx/gene?organism=ECK12&term=ECK120000050&format=jsp&ty
 Como tal no se necesita ninguna licencia debido a que fue creado por herramientas de open source.
 
 # Support contact information
-santana.estradahdz@gmail.com
+regusoft@ccg.unam.mx
 
 # Software quality checklist
 
