@@ -21,7 +21,7 @@ sudo dnf install python3 -y
 
 # Quick start
 El siguiente comando se encargara de correr el modulo
-python3 ht_validate_transform -i '/home/santana/Dropbox/3RegulonDB-Santana/1.Entrada/Datasets-Curadores-Templates/' -t geneExpressionContrast -out '/home/santana/Dropbox/3RegulonDB-Santana/users/Estrada883/3RegulonDB-Santana/Objetos_Validos/geneExpresionContrast_Json_Valido.json' -o '/home/santana/Dropbox/3RegulonDB-Santana/users/Estrada883/3RegulonDB-Santana/Objetos_InValidos/geneExpressionContrast_Json_InValido.json' -js_metadata '/home/santana/Dropbox/3RegulonDB-Santana/users/Estrada883/3RegulonDB-Santana/json_schemas/metadatageneExpressionContrast.json' -js_data '/home/santana/Dropbox/3RegulonDB-Santana/users/Estrada883/3RegulonDB-Santana/json_schemas/datageneExpressionContrast.json' -log /home/santana/Dropbox/3RegulonDB-Santana/users/Estrada883/3RegulonDB-Santana/Log/geneExpressionContrast.log
+python3 ht_validate_transform -i <temlatesDir> -t geneExpressionContrast -out  <validJsonFile> -o <InvalidJsonFile>  -js_metadata <JSONSchemaMetadataFile>  -js_data <JSONSchemaDataFile> -log <logFile>
 
 # Project website 
 
@@ -29,7 +29,7 @@ Poder visualizar los datos como tal en una plataforma web no se podr adebido a q
 http://regulondb.ccg.unam.mx/gene?organism=ECK12&term=ECK120000050&format=jsp&type=gene
 
 # License
-Como tal no se necesita ninguna licencia debido a que fue creado por herramientas de open source.
+MIT
 
 # Support contact information
 regusoft@ccg.unam.mx
